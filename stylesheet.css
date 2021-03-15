@@ -1,0 +1,131 @@
+.title {
+  color: white;
+}
+html, body {
+  height: auto;
+}
+* {
+  color: white;
+}
+.full-page {
+  background: linear-gradient(-115deg, black, #444444);
+}
+.header {
+  height:68px;
+  width:100%;
+  background-color: rgba(148, 148, 149, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.top-page {
+  float: left;
+  position: absolute;
+  top: 0px;
+}
+.top-page a{
+  font-size: 35px;
+  line-height: 68px;
+  background: transparent;
+  margin-left: 25px;
+  padding: 2px 2px;
+  text-decoration: none;
+  border: 8px solid gray;
+  font-family: 'Impact';
+  transition: all 1s;
+}
+.top-page a:hover{
+  color: black;
+}
+.sns {
+  float: right;
+  padding-right: 15px;
+}
+.sns a {
+  display: block;
+}
+.instagram {
+  height: 34px;
+  background-color: #AA0000;
+  width: 34px;
+  line-height: 34px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.twitter {
+  height: 34px;
+  background-color: #0066CC;
+  width: 34px;
+  line-height: 34px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.menu li {
+  list-style: none;
+  float: right;
+  padding-right: 18px;
+  font-size: 28px;
+  line-height: 75px;
+}
+.menu a{
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+}
+.menu a:hover{
+  color: black;
+}
+.btn {
+  color: #F5FFFA;
+}
+.contaier {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.wit {
+  width: 60%;
+  text-align: center;
+  padding-left: 250px;
+  padding-top: 150px;
+}
+.wit p{
+  font-family: "Palatino Linotype", cursive;
+  font-size: 28px;
+  padding-bottom: 0px;
+}
+.yukichi {
+  padding-top: 15px;
+  padding-left: 250px;
+}
+.connection img{
+  text-align: center;
+  margin: 100px 75px 80px 360px;
+  width:540px;
+}
+.footer {
+  height: 250px;
+  width: 100%;
+  background: radial-gradient(#696664, #242323);
+  position: absolute;
+}
+.footer-page a{
+  font-family: "Impact";
+  font-size: 45px;
+  text-decoration: none;
+  position: relative;
+  top:100px;
+  left: 525px;
+  transition: all 0.3s;
+}
+.footer-page a:hover {
+  color: black;
+}
+
+.footer-contents p{
+  position:relative;
+  top: 32px;
+  left: 35px;
+}
